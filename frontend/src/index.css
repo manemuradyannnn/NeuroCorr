@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  min-height: 100%;
+  font-size: 1rem;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'JetBrains Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fbf3ec;
+  background-image:
+    linear-gradient(rgba(227, 156, 130, 0.18) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(227, 156, 130, 0.18) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Instrument Serif', serif;
+}
+
+input[type='range'] {
+  @apply accent-indigo-600;
+}
