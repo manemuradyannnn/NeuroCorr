@@ -1,4 +1,6 @@
 # **NeuroCorr: Autocorrelation-Based Analysis of Simulated Brain Signals**
+_Program to simulate and analyze noisy brain-imaging signals, using signal processing techniques like autocorrelation to extract meaningful information about underlying physiological activity such as blood flow._
+
 ## **Overview**
 NeuroCorr is a full-stack simulation and analysis platform designed to demonstrate how noisy optical signals—similar to those measured in brain imaging techniques—can be transformed into meaningful physiological information using signal processing methods. The project is inspired by Diffuse Correlation Spectroscopy (DCS), a non-invasive technique used in neuroscience to measure blood flow in brain tissue. Through an interactive interface, NeuroCorr allows users to generate synthetic signals, apply autocorrelation, and visualize how underlying motion can be inferred from data that initially appears random and unstructured.
 
